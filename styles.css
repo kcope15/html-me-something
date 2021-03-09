@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    font-size: xx-large;
+    font-size: 30px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
 }
@@ -24,9 +24,17 @@ article {
     text-align: justify;
 }
 
-h2.underline {
+#subh {
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3.underline {
     text-decoration: underline;
     text-align: left;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif
 }
 
 footer {
@@ -35,3 +43,34 @@ footer {
     text-align: center;
     color: lightgray;
 }
+
+ul li {
+    display: inline-block;
+    border: 2px solid white;
+    padding: 14px 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(22, 22, 80);
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: yellowgreen;
+    padding: 14px 25px;
+}
+
+/* a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  } */
+
