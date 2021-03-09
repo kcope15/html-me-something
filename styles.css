@@ -1,0 +1,37 @@
+header {
+    text-align: center;
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(22, 22, 80);
+}
+
+main {
+    background-color: lightsteelblue;
+    width:1000px;
+    margin-left: 300px;
+    align-content: center;
+}
+
+article {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+h2.underline {
+    text-decoration: underline;
+    text-align: left;
+}
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: lightgray;
+}
